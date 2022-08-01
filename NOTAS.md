@@ -23,6 +23,9 @@ React permite pantener una UI de forma:</br>
 - Robusta 
 
 </br>
+Agregando React a una pagina existente
+
+</br>
 
 De JS Vanilla a JSX
 
