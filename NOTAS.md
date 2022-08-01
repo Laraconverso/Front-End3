@@ -24,7 +24,7 @@ React permite pantener una UI de forma:</br>
 
 </br>
 Agregando React a una pagina existente
-
+> ver index.html en carpeta Clases > C1
 
 
 
