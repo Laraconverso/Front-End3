@@ -1,4 +1,4 @@
-bbbbbbb## NOTAS del material
+bbbbbbbbb## NOTAS del material
 
 # React 
 
@@ -25,6 +25,30 @@ React permite pantener una UI de forma:</br>
 </br>
 Agregando React a una pagina existente
 > ver index.html en carpeta Clases > C1
+
+### C1 en vivo:
+- React es una Library
+- Continuamnete de desarrollo
+</br>
+</br>
+
+-> para importar la libreria de react y de ractDOM en la version 18
+```JS
+     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+ ```
+
+En reactDOM usamos el metodo render 
+```JS
+    //<div id="root"></div>
+    //ReactDom.render(elementoCreado, ElementoDondeIntroduzco)
+   React.createElement(
+    type,
+    [props],
+    [...children]
+)
+
+```
 
 
 

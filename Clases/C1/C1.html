@@ -1,0 +1,46 @@
+<!-- Tarea mesas Clase 1 - Mesa 2 -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Frontend III Ejercicio práctico clase 1</title>
+  </head>
+  <body id="texto">
+    <!-- Importar  las librerias-->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- <h1>Con lo visto hasta ahora</h1>
+    <h2>Replica este HTML</h2>
+    <h3>Usando</h3>
+    <h4>React.js</h4>
+    <footer>Suerte!</footer> -->
+
+
+    <script type="text/javascript">
+        const h_1= React.createElement("h1",null,"Con lo visto hasta ahora");
+
+        const h_2=React.createElement("h2", {key:2},"Replica este HTML");
+
+        const h_3=React.createElement("h3", {key:3}, "Usando");
+
+        const h_4=React.createElement("h4", {key:4},"React.js");
+
+        const footer = React.createElement("footer", {key:5}, "Suerte!");
+
+
+        const body = React.createElement(
+            "body",
+            null,
+            [h_1,h_2, h_3, h_4, footer]
+        );
+          
+        ReactDOM.render(body, document.getElementById("texto"));
+
+    </script>
+
+  </body>
+</html>
