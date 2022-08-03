@@ -1,0 +1,81 @@
+<!-- Ej mesa 5 - Clase 2 -->
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stock en verdulerÃ­a</title>
+  </head>
+  <body>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <div id="root"></div>
+     <!-- <div id="root">
+      <h1>Lista de Productos en stock:</h1>
+      <ul>
+        <li>Manzana</li>
+        <li>Pera</li>
+        <li>Naranja</li>
+        <li>Banana</li>
+        <li>Kiwi</li>
+      </ul>
+      <h2>Productos en falta:</h2>
+      <ul>
+        <li>Durazno</li>
+        <li>Cereza</li>
+        <li>Anana</li>
+      </ul>
+    </div> -->
+
+    <script type="text/babel">
+        const enStock = ["Manzana", "Pera", "Naranja", "Banana", "Kiwi"];
+
+        const enFalta = ["Durazno", "Cereza", "Anana"];
+
+        const Stockeados = () => {
+        const productoS = enStock.map((producto, index) => 
+          <li key={index++}  >{producto}</li>
+        )
+        return <ul>{productoS}</ul>;
+        }
+
+        // let Stock = () => {
+        //     return (document.getElementById("root").innerHTML = (
+        //     <ul>
+        //         {enStock.map((producto) => (
+        //         <li>{producto}</li>
+        //         ))}
+        //     </ul>
+        //     ));
+        // };
+      
+        //probamos de otra forma
+        let Faltantes = () => {
+        return (document.getElementById("root").innerHTML = (
+          <ul>
+            {enFalta.map((producto) => (
+              <li>{producto}</li>
+            ))}
+          </ul>
+        ));
+      };
+
+      ReactDOM.render(
+        <div>
+          <h1>Lista de Productos en stock:</h1>
+            <Stockeados/>
+      
+          <h2>Productos en falta:</h2>
+          <Faltantes />
+        </div>,
+        document.getElementById("root")
+      );
+      </script>
+
+    </script>
+
+  </body>
+</html>
