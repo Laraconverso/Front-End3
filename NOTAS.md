@@ -95,7 +95,6 @@ Babel, se importa y traduce el JSX a una forma gralmente mas secilla.
 ```
 
 
-
 </br>
 </br>
 
