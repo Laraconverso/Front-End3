@@ -40,7 +40,7 @@ Agregando React a una pagina existente
 
 En reactDOM usamos el metodo render 
 ```JS
-    //<div id="root"></div>
+//<div id="root"></div>
     //ReactDom.render(elementoCreado, ElementoDondeIntroduzco)
    React.createElement(
     type,
@@ -49,20 +49,56 @@ En reactDOM usamos el metodo render
 )
 
 ```
-
-
-
 </br>
-
-De JS Vanilla a JSX
-
+La tarea de las mesas de trabajo se encuentra en la capera Clases> C1 en el archivo C1.html 
 
 </br>
 </br>
 
 ## Clase 2
 ---
-Adding JSX
+Repaso de JS
+- Declaracion de variables :
+    ```JS 
+    var: estandar. Funciona en varios ambitos o bloques
+    let: es una variable que solo funciona dentro del bloque de codigo que se situa.
+    const: no modificable 
+    ``` 
+- Declaracion de funciones:  
+    ```JS
+    function myFuncion(){}
+
+    ```
+
+- Metodos de document que messirven para react:
+    ```JS
+    document.querySelector();
+    document.querySelectorAll();
+    document.getElementById();
+    document.getElementByClassName();
+    document.getElementBytName();
+    document.getElementsByTagName();
+    document.addEventListener();
+    ```
+
+</br>
+
+BABEL 
+
+Babel, se importa y traduce el JSX a una forma gralmente mas secilla. 
+
+```JS 
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+ //y abajo el script va a ser de tipo babel
+ <script type="text/babel"> </srcipt>
+```
+
+
+
+</br>
+</br>
+
 
 ## Clase 3 - Integradora 
 Revision 
