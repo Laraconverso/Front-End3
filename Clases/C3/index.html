@@ -4,28 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <title>Mesa 2</title>
 </head>
 <body>
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-
-    <section class="menu"></section>
-    <section class="image"></section>
+    
+    <div id="root"></div>
     
     <script type="text/babel">
-        
-    
 
-        function App(){
+    let actors = [
+       { 
+        photo:"https://es.web.img2.acsta.net/pictures/22/04/18/16/11/4406324.jpg",
+        name: "Johnny",
+        lastName: "Depp", 
+        age:59,
+        nationality:"USA",
+        experience:[ "Pirates of the Caribbean",
+        "Johnny scissor hand",
+        "Transcendent"],
+        education:[ "University of Arts",
+        "UCLA"],
+        bio:"John Christopher Depp II is an American actor, producer, and musician. He is the recipient of multiple accolades, including a Golden Globe Award and a Screen Actors Guild Award, in addition to nominations for three Academy Awards and two BAFTA awards."
+        },
+    ]
+        
+    const Header=()=>{
+        let header = ['Home', 'About', 'Career', 'Education'];
+        let headerList = header.map((item, index)=>
+            <section className="ruta" key={index} class="col-3 d-flex justify-content-center border border-dark" >{item}</section>
+        );
+        return <section className="rutas" class="row mb-5 border border-dark">{headerList}</section>
+    }
+
+    const Photo=(props)=>{
+        return(
+            <section className="photo" class="col-4 d-flex justify-content-center">
+                <img src={props.pic} id="imagen"></img>
+            </section>
+        )
+    }
+
+    const Bio=()=>{
+        return (document.getElementById("root").innerHTML = (
+            <ul>
+            {actors.map((actor, index) => 
+                <section className="actor" key={index} class="row mb-5">
+                <Photo pic={actor.photo}/>
+                <p id= "actores" class="col-8"> 
+                    Personal Infrormation: <br/> <br/>
+                    Name: {actor.name} <br/>
+                    Last Name: {actor.lastName} <br/>
+                    Age: {actor.age} <br/>
+                    Nationality: {actor.nationality} <br/>
+                    Experience: {actor.experience.map((movie, index)=> <li key={index}>{movie}</li>)} <br/>
+                    Education: {actor.education.map((education, index)=> <li key={index}>{education}</li>)} <br/>
+                    Bio: {actor.bio}<br/>
+                </p>      
+                </section>)
+            }
+          </ul>
+        ));
+    }
+
+        function App() {     
             return(
                 <div>
-
+                    <Header/>
+                    <Photo/>
+                    <Bio/> 
                 </div>
-
+                
             )
         }
+
+        ReactDOM.render(<App/>, document.getElementById('root'))
+
     </script>
 
 

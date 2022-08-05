@@ -1,0 +1,23 @@
+#imagen {
+    
+    height: 40%;
+    border-radius: 50%;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+p{
+    font-size: 200%;
+}
+
+.col-3{
+    background-color: rgb(236, 105, 122);
+    font-weight: bold;
+    font-size: 200%;
+}
+
+
+
