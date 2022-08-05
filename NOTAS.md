@@ -93,11 +93,29 @@ Babel, se importa y traduce el JSX a una forma gralmente mas secilla.
  //y abajo el script va a ser de tipo babel
  <script type="text/babel"> </srcipt>
 ```
-
+Trabajo en mesas, se encuentra en la carpeta C2>mesa5.html
 
 </br>
 </br>
-
 
 ## Clase 3 - Integradora 
-Revision 
+Revision </br>
+Corregimos los trabajos realizados en la mesas el martes.
+
+</br>
+</br>
+
+## Clase 4 
+
+</br>
+</br>
+
+## Clase 5
+
+</br>
+</br>
+
+## Clase 6 - Integradora 
+
+</br>
+</br>
