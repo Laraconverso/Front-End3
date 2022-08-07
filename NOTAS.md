@@ -1,4 +1,4 @@
-bbbbbbbbb## NOTAS del material
+## NOTAS del material
 
 # React 
 
@@ -26,7 +26,9 @@ React permite pantener una UI de forma:</br>
 Agregando React a una pagina existente
 > ver index.html en carpeta Clases > C1
 
-### C1 en vivo:
+----
+
+en vivo:
 - React es una Library
 - Continuamnete de desarrollo
 </br>
@@ -102,15 +104,55 @@ Trabajo en mesas, se encuentra en la carpeta C2>mesa5.html
 Revision </br>
 Corregimos los trabajos realizados en la mesas el martes.
 
+Mesa de trabajo en la carpeta C3>index.html
+
 </br>
 </br>
 
 ## Clase 4 
-
+Creando una aplicación con React</br>
 </br>
+<img src="img_teoria/1.png">
+
+Como se instala React?</br>
+</br>
+<img src="img_teoria/2.png">
 </br>
 
 ## Clase 5
+
+Ejemplo de componente funcional:
+```JS
+    import React from'react';
+    import React DOM from'react-dom';
+    const MyComponent Functional=()=><h1>Hola mundo de las Funciones/h1;
+    ReactDOM.render(
+    <My Component Functional/>,
+    document.getElementById('root')
+    ); 
+```
+
+```JS
+    import React from'react';
+    import ReactDOM from'react-dom';
+    class MyComponent Class extends React.Component{
+    render(){
+        return<h1>Hola mundo de las Clases/h1;
+    };
+    ReactDOM.render(
+    <My Component Class/>,
+    document.getElementById('root')
+    );
+```
+</br>
+Las props pasan informacion o atributos entre componentes
+
+- Las props son inmutables 
+- Las props son recibidas
+- Las props facilitan la reutilizacion de componentes
+- Son pasadas al componentes hija o hijo cuando este se esta creando. 
+- Para un componente hijo las propiedades no cambian despues del render inicial. 
+- Facilita la previsibilidad en el manejo de datos de la aplicacion.
 
 </br>
 </br>
