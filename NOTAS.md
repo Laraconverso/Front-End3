@@ -154,6 +154,8 @@ Las props pasan informacion o atributos entre componentes
 - Para un componente hijo las propiedades no cambian despues del render inicial. 
 - Facilita la previsibilidad en el manejo de datos de la aplicacion.
 
+[Pasos a seguir para crear app en react](https://create-react-app.dev/)
+
 </br>
 </br>
 
