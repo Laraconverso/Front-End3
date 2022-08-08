@@ -119,6 +119,21 @@ Como se instala React?</br>
 <img src="img_teoria/2.png">
 </br>
 
+----
+
+En vivo: </br>
+
+Que son las props?:
+
+- Cumplen la funcion de pasar informacion de un componente a otro. 
+- Un componente recibe informacion desde su componente padre y de esta forma, poder utlilzar dicha informacion. 
+- Si bien, las props, son inmutables, se pueden volver a gurdar en otra variable y esta misma puede modificarse. 
+
+<img src="img_teoria/3.png">
+
+</br>
+</br>
+
 ## Clase 5
 
 Ejemplo de componente funcional:
