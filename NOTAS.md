@@ -131,6 +131,35 @@ Que son las props?:
 
 <img src="img_teoria/3.png">
 
+-> En cada compnente sea hijo o padre se le pueden pasar props (propiedades).
+
+```JS
+    <div id="root"></div>
+
+    const Photo=(props)=>{
+        return(
+            <section className="photo" class="col-4 d-flex justify-content-center">
+                <img src={props.pic} id="imagen"></img>
+            </section>
+        )
+    }
+
+    function App() {     
+        return(
+            <div>
+                <Photo pic="https://es.web.img2.acsta.net/pictures/22/04/18/16/11/4406324.jpg"/>
+            </div>        
+        )
+    }
+    ReactDOM.render(<App/>, document.getElementById('root'))
+```
+
+En este caso la App al renderizarse, muestra la foto indicadaa en la funcion APP (Componente padre), Photo, el componente hijo, recibe la pops declarada en App. 
+
+Create react APP comandos:
+<img src="img_teoria/4.png">
+
+
 </br>
 </br>
 
