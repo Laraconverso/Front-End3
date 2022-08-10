@@ -210,7 +210,6 @@ import ...
 require(...)
 
 // son parecidos
-
 // Y hay que exportar al final de APP.js (que seria el main component)
 ```
 
