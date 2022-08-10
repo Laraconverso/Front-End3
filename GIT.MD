@@ -12,9 +12,36 @@ Es una herramienta de versionado, es decir que sirve para guardar y poder accede
 Repositorio: </br>
 Lugar donde se van a guardar las diferentes versiones del proyecto. 
 
+GITHUB:
+Lugar donde guardar los repositorios simulando ser una nube. 
+
+
+Pasos a seguir: 
+- Paso 1: Crear repositorio en github. 
+- Paso 2: Crear una carpeta en local con el mismo nombre. (donde voy a trabajar el proyecto). 
+- Paso 3: Inicializar git en local. 
+    > Como? </br>
+    > En la consola ubicados dentro de la carpeta, ejecutamos el comando </br> 
+    ``` git init ```</br>
+    > Luego una vez que queremos ralizar un commit, es decir guardar los cambios,  (x ejemplo agregamos un archivo a la carpeta y queremos guardar ese cmabio) ejecutamos el comando</br>
+    ```git add .``` </br>
+    > Que agrega (en este ejemplo) todos los archivos de la carpeta a esta nueva version del proyecto aun no commiteada. </br>
+    > Para realizar el commit se ejecuta el comando </br>
+    ``` git commit -m "mensaje"```</br>
+- Paso 4:
 
 
 
+Lista de comandos de git:</br>
+- ```git init``` -> inicializa git en la carpeta local
+- ```git add .``` -> agrega todos los archivos dentro de la carpeta.
+- ```git status``` -> nos muestra el estado de las acciones de git.
+- ```git commit -m "mensaje empirico"``` -> realiza el commit con el mensaje indicado y guarda esa version del proyecto en local. 
+- ```git ``` ->
+
+
+</br>
+</br>
 
 ⚠️ Paginas utiles relacionadas: ⚠️
 - [Branching](https://learngitbranching.js.org/)
