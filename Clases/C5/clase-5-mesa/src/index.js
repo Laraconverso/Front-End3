@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import ListaDePacientes from "./ListaDePacientes"
+import App from "./App"
 
 ReactDOM.render(
-  <ListaDePacientes/>,
+  <App/>,
   document.getElementById("root")
 );
