@@ -1,8 +1,8 @@
-import ListaDePacientes from "./ListaDePacientes";
+import ListaDeClientes from "./ListaDeClientes";
 
 function App() {
     return (
-      <ListaDePacientes/>
+      <ListaDeClientes/>
     );
 }
 export default App;
