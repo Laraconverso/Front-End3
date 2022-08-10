@@ -119,15 +119,19 @@ Como se instala React?</br>
 <img src="img_teoria/2.png">
 </br>
 
+
+[LINK --> Pasos a seguir para crear app en react](https://create-react-app.dev/)
+
 ----
 
 En vivo: </br>
 
-Que son las props?:
+Que son las props?
 
 - Cumplen la funcion de pasar informacion de un componente a otro. 
 - Un componente recibe informacion desde su componente padre y de esta forma, poder utlilzar dicha informacion. 
 - Si bien, las props, son inmutables, se pueden volver a gurdar en otra variable y esta misma puede modificarse. 
+</br>
 
 <img src="img_teoria/3.png">
 
@@ -198,7 +202,19 @@ Las props pasan informacion o atributos entre componentes
 - Para un componente hijo las propiedades no cambian despues del render inicial. 
 - Facilita la previsibilidad en el manejo de datos de la aplicacion.
 
-[Pasos a seguir para crear app en react](https://create-react-app.dev/)
+----
+
+Clase en vivo </br>
+```JS
+import ...
+require(...)
+
+// son parecidos
+
+// Y hay que exportar al final de APP.js (que seria el main component)
+```
+
+
 
 </br>
 </br>
