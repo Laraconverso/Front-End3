@@ -163,6 +163,7 @@ En este caso la App al renderizarse, muestra la foto indicadaa en la funcion APP
 Create react APP comandos:
 <img src="img_teoria/4.png">
 
+El trabajo realizado en las mesas del dia de la fecha se encuentra en Clases>C4 
 
 </br>
 </br>
@@ -208,17 +209,16 @@ Clase en vivo </br>
 ```JS
 import ...
 require(...)
-
 // son parecidos
 // Y hay que exportar al final de APP.js (que seria el main component)
 ```
-
-
+El trabajo de las mesas de esta clase se encuentra en la carpeta Clases > C5
 
 </br>
 </br>
 
 ## Clase 6 - Integradora 
+Clase de repaso
 
 </br>
 </br>
