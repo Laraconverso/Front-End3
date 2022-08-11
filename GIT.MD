@@ -29,9 +29,13 @@ Pasos a seguir:
     > Para realizar el commit se ejecuta el comando </br>
     ``` git commit -m "mensaje"```</br>
 - Paso 4: Vincular con github (como si fuese la nube)
-    >como?
-
-
+    >como?</br> 
+    >Caso 1: Tenemos una carpeta en local con el proyecto. </br> 
+    >Se puede crear un repositorio desde github (remoto) y ahi compiar el texto que aparece en pantalla 
+    > Caso 2: Tengo el proyecto en github (remoto) y quiero descargarlo al local. </br> Se ejecuta el comando y se copia el link de HTTPS que aparece en el github. 
+    ```git clone [LINK] ```</br>
+- Paso 5: Una vez que todos los comits estan "up to date", o sea ejecutamos  ```git status ``` y no hay commits por hacer, ejecutamos el comando 
+``` git push ```.
 
 
 Lista de comandos de git:</br>
@@ -43,10 +47,8 @@ Lista de comandos de git:</br>
 - ```git log ``` -> brinda la info completa de los commits. 
 - ```git branch ``` -> nos dice en que rama estamos 
 - ``` git checkout -b nombreRama``` -> nos crea una rama y saltamos a esa misma. 
+- ```git push``` -> agrega a remoto los commits realizados en local. 
 - ``` git push --set-upstream origin nombreRama``` -> agrega la rama al github (remoto). 
-
-
-
 
 
 </br>
