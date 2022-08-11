@@ -28,7 +28,9 @@ Pasos a seguir:
     > Que agrega (en este ejemplo) todos los archivos de la carpeta a esta nueva version del proyecto aun no commiteada. </br>
     > Para realizar el commit se ejecuta el comando </br>
     ``` git commit -m "mensaje"```</br>
-- Paso 4:
+- Paso 4: Vincular con github (como si fuese la nube)
+    >como?
+
 
 
 
@@ -37,7 +39,14 @@ Lista de comandos de git:</br>
 - ```git add .``` -> agrega todos los archivos dentro de la carpeta.
 - ```git status``` -> nos muestra el estado de las acciones de git.
 - ```git commit -m "mensaje empirico"``` -> realiza el commit con el mensaje indicado y guarda esa version del proyecto en local. 
-- ```git ``` ->
+- ```git log --oneline``` -> muestra de forma simplificada la informacion de los commits realizados. 
+- ```git log ``` -> brinda la info completa de los commits. 
+- ```git branch ``` -> nos dice en que rama estamos 
+- ``` git checkout -b nombreRama``` -> nos crea una rama y saltamos a esa misma. 
+- ``` git push --set-upstream origin nombreRama``` -> agrega la rama al github (remoto). 
+
+
+
 
 
 </br>
