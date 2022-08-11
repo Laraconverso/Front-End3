@@ -49,6 +49,8 @@ Lista de comandos de git:</br>
 - ``` git checkout -b nombreRama``` -> nos crea una rama y saltamos a esa misma. 
 - ```git push``` -> agrega a remoto los commits realizados en local. 
 - ``` git push --set-upstream origin nombreRama``` -> agrega la rama al github (remoto). 
+- ```git pull ``` -> nos trae TODO el repositorio desde remoto al local. 
+- ```git fetch ``` -> trae una zona intermedia decidiiendo que es lo que estas trayendo de remoto.
 
 
 </br>
