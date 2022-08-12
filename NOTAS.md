@@ -251,6 +251,9 @@ Fragment</br>
 Children</br>
 <img src="./img_teoria/7.png"/>
 
+</br>
+
+La trabajo de la mesa se encuentra en la carpeta Clases> C6
 
 </br>
 </br>
