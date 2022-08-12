@@ -218,7 +218,39 @@ El trabajo de las mesas de esta clase se encuentra en la carpeta Clases > C5
 </br>
 
 ## Clase 6 - Integradora 
-Clase de repaso
+
+Clase de repaso en vivo
+--- 
+
+Que es webpack ?</br>
+Es un empaquetador d emodulos que se va a encargar de mostrar el proyecto que desarrollamos dentro de un browser.</br>
+Va a empaquetar todos los archivos que trabajamos y lo va a convertir en un estatico distribuible 
+Se puede configurar un webpack dentro del proyecto de react que creamos.</br>
+
+<img src="./img_teoria/5.png"/>
+
+</br>
+Que es Eslint ?</br>
+Se encarga de optimizar el codigo que realizamos.</br> 
+Advierte sobre ciertos patrones que pueden lanzar errores o que pueden mejorar su sintaxis. 
+Tambien se puede configurar con el proposito de poder generar un convenio entre desarrolladores.
+
+</br>
+Que es Jest y testing-library ?
+
+Son librerias utilizadas para testear el codigo. 
+Si instalamos alguna de estas librerias
+(...)
+Nos devuelven un log con los errores y pruebas ejecutadas. 
+
+</br>
+Fragment</br>
+<img src="./img_teoria/6.png"/>
+
+</br>
+Children</br>
+<img src="./img_teoria/7.png"/>
+
 
 </br>
 </br>
