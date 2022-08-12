@@ -218,9 +218,7 @@ El trabajo de las mesas de esta clase se encuentra en la carpeta Clases > C5
 </br>
 
 ## Clase 6 - Integradora 
-
-Clase de repaso en vivo
---- 
+Clase de repaso en vivo</br>
 
 Que es webpack ?</br>
 Es un empaquetador d emodulos que se va a encargar de mostrar el proyecto que desarrollamos dentro de un browser.</br>
@@ -260,15 +258,85 @@ La trabajo de la mesa se encuentra en la carpeta Clases> C6
 
 ## Clase 7
 
+Map </br>
+La funcion map de Array(Array.prototipe.map) se usa para crear un nuevo aray con los resultados de llamar a una funcion apllicada sobre cada elemento de un array. Dicho de otra forma, map aplica la funcion que se le indique en cada uno de los elementos del array y devuelve un nuevo array de los resultados. La funcion map nos permite mapear, los elementos de un array en otros elementos par un nuevo array. </br>
+
+Keys </br>
+En React la clave key es un atributo especial de tipo sstring que se debe incluir al crear listas de elementos. React lo utiliza para identificar cuales elementos han cambiado, se han agregado o se han eliminado.</br>
+
+Clase en vivo
+---
+
 </br>
 </br>
 
 ## Clase 8
+Componentes Stateful</br>
+Los componentes con estado son aquellos que pueden cambiar su contenido interno a partir de eventos externos. </br>
+- Los componentes 'stateful' son aquellos que estan atentos a los eventos que los rodean y saben reaccionar a los mismos.</br>
+En funcion de esos eventos, el componente podra cambiar su contenido interno.</br>
+Estos componentes ya no seran funciones nativas de JS, sino que trabajamos con un nuevo tipo de dato: una clase. </br>
+```JS
+import React,{Component} from 'react';
+class NombreComponente extends Component{
+    render(){
+        return(...);
+    };
+}
+export default NombreComponente;
+```
+Solemos utilizar los componentes stateful cuando esperamos cierta interacción del usuarioy, en baseaeso,queremos que el interior de nuestro
+componente cambie. </br> Los componentes stateful son reactivosypor ende el DOM se actualiza cuando es necesario.</br>
+
+State y setState</br>
+Solemos utilizar los componentes stateful cuando esperamos cierta interacción del usuarioy,en baseaeso,queremos que el interior de nuestro componente cambie.
+Los componentes stateful son reactivos y por ende el DOM se actualiza cuando es necesario. </br>
+
+State</br>
+En su momento, dijimos que una de las razones por las cuales React nos
+beneficia es la actualización por componentes del DOM.</br>
+También, indicamos que los componentes con estado eran reactivosalas
+interacciones con el usuarioyque, en baseaeso, se actualizabanono.</br>
+Ahora, llegó el momento de fusionar estas dos características de React y empezarausarlas.</br>
+Vamos a ver cómo usamos setState para cambiar el estado de nuestros
+componentes, ya sea ante eventos de usuario, cambios en el servidoro
+cambios en los props.</br>
+Veamos cómo se ve esto en el código con un breve ejemplo.</br>
+
+Mini resumen de lo visto hasta ahora en C8:</br>
+### Herencia:
+
+La programación orientada a objetos introdujo el concepto de herencia. </br>
+En React y, por lo tanto, en JavaScript, existen dos formas de herencia:
+- la herencia clásica
+- la herencia basada en prototipo.</br>
+Esta última ha estado desde la creación misma de JavaScript, pero recién con la incorporación de las clases en ECMAScript 2015 la herencia clásica entróaformar parte de JavaScript.</br>
+La herencia basada en clases es simplemente un mecanismo para crear
+nuevas clasesapartir de clases existentes.</br>
+En JavaScriptyReact, se utiliza la palabra clave extends.Por ejemplo,para crear un nuevo componente de clase en React se utiliza la clase base Component así:
+```class App extends React.Component{}```
+Ahora nuestra clase App tiene todo lo que tiene la clase Component de
+React.</br>
+
+### Especializacion:
+La especialización es adaptar una clase para hacerla más afín con nuestras necesidades. Por ejemplo, nuestra clase App tiene lo que heredó de Component, en este sentido, es genérica aún. Pero ahora podemos agregar datos y funciones para especializarse en el trabajo que queremos realizar con la clase App.</br>
+
+### Reutilizacion:
+La reutilización es simplemente poder hacer uso de lo que ya tenemos a disposición, en lugar de tener que reescribirlo o copiarlo. En nuestro caso,
+al heredar de la clase base de React Component nos libramos de tener que escribir esa funcionalidad nosotros, o de copiarla desde la biblioteca a nuestro código.</br>
+
+### Composicion:
+La composición es otra forma de reutilización y puede tener distintas formas: composición de funciones, composición de objetos y composición de clases, pero la idea es la misma: escribir funcionalidad en forma separada para poder combinarlas. Con esto, se logran estructuras menos rígidas porque las relaciones que se forman no son jerarquías del tipo “es un”, sino que son del tipo “usa un”.</br>
+
+Clase en vivo
+--- 
 
 </br>
 </br>
 
 ## Clase 9 - Integradora
+
+Revision y practica</br>
 
 </br>
 </br>
