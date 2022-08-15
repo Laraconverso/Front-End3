@@ -264,8 +264,8 @@ La funcion map de Array(Array.prototipe.map) se usa para crear un nuevo aray con
 Keys </br>
 En React la clave key es un atributo especial de tipo sstring que se debe incluir al crear listas de elementos. React lo utiliza para identificar cuales elementos han cambiado, se han agregado o se han eliminado.</br>
 
-Clase en vivo
----
+Clase en vivo</br>
+----
 
 </br>
 </br>
