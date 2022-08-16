@@ -259,13 +259,47 @@ La trabajo de la mesa se encuentra en la carpeta Clases> C6
 ## Clase 7
 
 Map </br>
-La funcion map de Array(Array.prototipe.map) se usa para crear un nuevo aray con los resultados de llamar a una funcion apllicada sobre cada elemento de un array. Dicho de otra forma, map aplica la funcion que se le indique en cada uno de los elementos del array y devuelve un nuevo array de los resultados. La funcion map nos permite mapear, los elementos de un array en otros elementos par un nuevo array. </br>
+La funcion map de Array(Array.prototipe.map) se usa para crear un nuevo aray con los resultados de llamar a una funcion apllicada sobre cada elemento de un array.</br> Dicho de otra forma, map aplica la funcion que se le indique en cada uno de los elementos del array y devuelve un nuevo array de los resultados. La funcion map nos permite mapear, los elementos de un array en otros elementos par un nuevo array. </br>
 
 Keys </br>
 En React la clave key es un atributo especial de tipo sstring que se debe incluir al crear listas de elementos. React lo utiliza para identificar cuales elementos han cambiado, se han agregado o se han eliminado.</br>
 
+Css en componentes</br>
+
+
 Clase en vivo</br>
 ----
+ Hacemos repaso de CSS con el profe en 
+ -  [Flex-box froggy](https://flexboxfroggy.com/#es)
+- Otro juego para practicar: [Grid garden](https://cssgridgarden.com/)
+
+
+Repaso de css en componentes:</br>
+- Inline (estilo en la misma linea del componente dentro de sus tags) se trabaja como su fuese un objeto pero con codigo CSS. 
+
+    ```HTML
+    <h1 style={{backgroundColor:'red', }} className='title' >Blog de gatos</h1>
+    ``` 
+    
+- es buena practica apartarlo en un archivo especifico para el estilo.
+```JS
+//x ej en JS generamos un estilo x component: 
+export const title ={
+    textAlign:'center';
+    color:'#0000';
+    fontSize: '3rem';
+}
+// y desp lo importas como 
+import {title} from ".. donde se encentre el archivo";
+//tambien se puede aplicar en un CSS e importarlo como 
+
+import styles from './style.css'
+```
+
+
+
+
+
 
 </br>
 </br>
