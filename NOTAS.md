@@ -295,7 +295,7 @@ import {title} from ".. donde se encentre el archivo";
 
 import styles from './style.css'
 ```
-
+El trabajo de la mesa se encuentra en Clases>C7
 
 
 
