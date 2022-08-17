@@ -295,10 +295,7 @@ import {title} from ".. donde se encentre el archivo";
 
 import styles from './style.css'
 ```
-El trabajo de la mesa se encuentra en Clases>C7
-
-
-
+El trabajo de la mesa se encuentra en Clases>resueltos>C7
 
 
 </br>
@@ -364,6 +361,8 @@ La composición es otra forma de reutilización y puede tener distintas formas: 
 
 Clase en vivo
 --- 
+
+
 
 </br>
 </br>
