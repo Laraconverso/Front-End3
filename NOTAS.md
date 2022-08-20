@@ -361,7 +361,7 @@ La composición es otra forma de reutilización y puede tener distintas formas: 
 
 Clase en vivo
 --- 
-npm
+
 
 
 </br>
@@ -370,6 +370,30 @@ npm
 ## Clase 9 - Integradora
 
 Revision y practica</br>
+
+Hacemos un ejercicio de pokedex, se encuenra en la carpeta > Clases > C9
+Clonamos un proyecto desde github y realizamos las consignas.
+
+</br>
+</br>
+
+
+## Clase 10 
+
+</br>
+</br>
+
+## Clase 11 
+
+</br>
+</br>
+
+## Clase 12 - Integradora
+
+</br>
+</br>
+
+## Clase 13
 
 </br>
 </br>
