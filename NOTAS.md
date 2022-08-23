@@ -359,9 +359,6 @@ al heredar de la clase base de React Component nos libramos de tener que escribi
 ### Composicion:
 La composición es otra forma de reutilización y puede tener distintas formas: composición de funciones, composición de objetos y composición de clases, pero la idea es la misma: escribir funcionalidad en forma separada para poder combinarlas. Con esto, se logran estructuras menos rígidas porque las relaciones que se forman no son jerarquías del tipo “es un”, sino que son del tipo “usa un”.</br>
 
-Clase en vivo
---- 
-
 
 
 </br>
