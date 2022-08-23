@@ -380,10 +380,40 @@ Clonamos un proyecto desde github y realizamos las consignas.
 
 ## Clase 10 
 
+.. Falta la teoria de ComponentDidMount ...etc + </br>
+
+La tarea de las mesas se encuentra en la carpeta Clases> C10
+
 </br>
 </br>
 
 ## Clase 11 
+
+Eventos del usuario:</br>
+- Se declaran con el prefijo ```on``` </br>
+- En el caso de onSubmit, utilizara un manejador de eventos `hanleSubmit` ejemplo: 
+```JSX
+function handleSubmit(e){
+       e.preventDefault();
+       console.log("You clicked submit.");
+    }
+    render{
+        return(
+           <form onSubmit={handleSubmit}>
+                <button type="submit">Submit</button>
+           </form>
+        );
+    }
+```
+- Las respuestas a un evento de usuario debe funcionar y mostrarse de la forma deseada, tanto para nosotros como para las personas usuarias. </br>
+
+Componentes controlados vs no controlados </br>
+- Controlados: llevan un registro de que pasa en un input. ---> los controla REACT! 
+- No controlados: igualmente controlado como cualquier elemento insertado en el DOM. ---> los controla el DOM!
+- React necesita controlar los inputs para un manejo eficiente de los cambios.
+
+
+La tarea de la clase se encuentra en la carpeta Clases> C11
 
 </br>
 </br>
