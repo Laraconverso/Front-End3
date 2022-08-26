@@ -17,7 +17,8 @@ const Rejuvenecedor =()=>{
         console.log("Changed" + event)
     }
 
-    const handleSubmit = ()=> {
+    const handleSubmit = (event)=> {
+        event.preventDefault();
         if(nombre ==='' || edad < 0){
             setError(true);
         } else{
@@ -26,8 +27,8 @@ const Rejuvenecedor =()=>{
             setNombre("");
             setEdad("");
             setError(false);
-        }
-        console.log("Submitted");
+            console.log("Submitted");
+        }  
     }
 
         return(
@@ -35,10 +36,10 @@ const Rejuvenecedor =()=>{
                 <form onSubmit={handleSubmit}>
                 <br/>
                     <label htmlFor="">Nombre </label> <br/><br/>
-                    <input type="text" onChange={handleChangeNombre}/> <br/><br/>
+                    <input type="text" onChange={handleChangeNombre} required value={nombre}/> <br/><br/>
                     {error && <p>Completa este casillero</p>}
                     <label htmlFor="">Edad </label> <br/><br/>
-                    <input type="int" onChange={handleChangeEdad}/> <br/><br/>
+                    <input type="int" onChange={handleChangeEdad} required value={edad}/> <br/><br/>
                     {error && <p>Completa este casillero</p>}
                     <button type="submit">Submit</button>
                 </form>
