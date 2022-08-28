@@ -268,7 +268,7 @@ Css en componentes</br>
 
 
 Clase en vivo</br>
-----
+
  Hacemos repaso de CSS con el profe en 
  -  [Flex-box froggy](https://flexboxfroggy.com/#es)
 - Otro juego para practicar: [Grid garden](https://cssgridgarden.com/)
@@ -376,6 +376,10 @@ Clonamos un proyecto desde github y realizamos las consignas.
 
 
 ## Clase 10 
+
+Ciclo de vida:</br>
+Los componentes tienen ciclos de vida, y pasa por varios estadios:
+<img src="./img_teoria/8.png"></img>
 
 .. Falta la teoria de ComponentDidMount ...etc + </br>
 
