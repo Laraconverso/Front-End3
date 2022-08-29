@@ -18,6 +18,7 @@ export default function Item(props) {
   function comprar(){
     props.addItem();
     setCantStock((cant)=> cant - 1);
+    console.log("Se resto uno de la cant. en stock.");
   }
 
   return (

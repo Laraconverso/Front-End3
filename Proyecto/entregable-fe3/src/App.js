@@ -13,6 +13,7 @@ function App() {
 
   function addItem(){
     setCantidad((cant)=> cant + 1);
+    console.log("Se agrego un item al carrito.");
   }
   
   return (

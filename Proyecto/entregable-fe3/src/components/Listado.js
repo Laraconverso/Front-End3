@@ -13,7 +13,7 @@ export default function Listado({addItem}) {
     <div className='container'>
         {productos.map((item) => (
           <Item 
-            id={item.id}
+            key={item.id}
             name={item.producto.name}
             description={item.producto.descripcion}
             stock={item.stock}
