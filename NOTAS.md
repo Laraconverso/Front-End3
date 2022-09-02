@@ -434,17 +434,34 @@ Hicimos una actividad parecida al entregable.
 </br>
 
 ## Clase 14
-UseEfect -> el componente actua de cierta manera. 
+UseEfect -> el componente actua de cierta manera. </br>
+Side Effects -> <img src="./img_teoria/9.png"></img>
+Apis </br>
+React es compatible con cualquier biblioteca AJAX. Desde bibliotecas con soporte nativo en navegadores actuales —como Fetch— o bibliotecas third party —como Axios—. Esto permite una gran flexibilidad a la hora de desarrollar peticiones al servidor. No hay ningún gran misterio aquí. Recordemos lo aprehendido: las llamadas a APIs en un componente de clase de React se realizan durante el ciclo de vida del mismo. Estas podrán ser efectuadas luego de que el componente haya sido montado o cuando el componente se haya actualizado debido a algún cambio en sus props o state. Es decir, utilizando los métodos componentDidMount() y componentDidUpdate(). Finalmente, para limpiar los efectos de la petición si el componente es desmontado antes de obtener el response, usaremos componentWillUnmount().
+
+Fetch</br>
+Axios</br>
+
 
 </br>
 </br>
 
 ## Clase 15 --Integradora
-Repaso de los temas vistos durante la semana
+Repaso de los temas vistos durante la semana.
 </br>
 </br>
 
 ## Clase 16
+Enrutamiento estatico: 
+</br>
+</br>
 
+## Clase 17
+Enrutamiento dinamico:
+</br>
+</br>
+
+## Clase 18 --Integradora
+Reviision de los temas de la semana
 </br>
 </br>
