@@ -420,16 +420,17 @@ La tarea de la clase se encuentra en la carpeta Clases> C11
 </br>
 
 ## Clase 12 - Integradora
-
+...
 </br>
 </br>
 
 ## Clase 13
-
+Hicimos una actividad parecida al entregable.
 </br>
 </br>
 
 ## Clase 14
+UseEfect -> el componente actua de cierta manera. 
 
 </br>
 </br>
