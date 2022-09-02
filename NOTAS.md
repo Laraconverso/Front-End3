@@ -379,9 +379,13 @@ Clonamos un proyecto desde github y realizamos las consignas.
 
 Ciclo de vida:</br>
 Los componentes tienen ciclos de vida, y pasa por varios estadios:
+- Montaje: cuando el componente 'nace' en esta instancia en el DOM. 
+- Desmpontaje: cuanto el componente 'muere', cuando se demonta del Dom.
+- ```Render() ``` es el uncio metodo obligatorio
 <img src="./img_teoria/8.png"></img>
-
-.. Falta la teoria de ComponentDidMount ...etc + </br>
+ </br>
+<img src="./img_teoria/9.png"></img>
+</br>
 
 La tarea de las mesas se encuentra en la carpeta Clases> C10
 
@@ -420,7 +424,7 @@ La tarea de la clase se encuentra en la carpeta Clases> C11
 </br>
 
 ## Clase 12 - Integradora
-...
+Repaso de los temas la tarea de la mesa se encuentra en la carpeta Clases>C12
 </br>
 </br>
 
@@ -436,7 +440,7 @@ UseEfect -> el componente actua de cierta manera.
 </br>
 
 ## Clase 15 --Integradora
-
+Repaso de los temas vistos durante la semana
 </br>
 </br>
 
