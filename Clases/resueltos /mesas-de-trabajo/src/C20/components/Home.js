@@ -34,7 +34,7 @@ const Home = () => {
       <h1>Bienvenido a <span className="dh">Digital</span><span className="pk">Poke</span><span className="dh">House</span> </h1>
       <div>
         <h4>Elige un pokemon para ver sus datos</h4>
-        {loading ? <p>Loading Data...</p> :
+        {loading ? <p>Cargando POKEMONESSSS...</p> :
           <div className="list">
             {pokemons.map((pokemon, index) => (
               <Link key={index} to={`/pokemon/${index + 1}`} >{pokemon.name}</Link>
