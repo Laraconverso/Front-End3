@@ -465,3 +465,28 @@ Enrutamiento dinamico:
 Reviision de los temas de la semana
 </br>
 </br>
+
+## Clase 19 
+</br>
+</br>
+
+## Clase 20 
+</br>
+</br>
+
+## Clase 21 --Integradaora
+</br>
+</br>
+
+## Clase 22 
+</br>
+</br>
+
+## Clase 23 
+</br>
+</br>
+
+## Clase 24 --Integradora
+</br>
+</br>
+
