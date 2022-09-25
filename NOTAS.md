@@ -1,4 +1,4 @@
-## NOTAS del material
+## NOTAS del material [SIN FINALIZAR]
 
 # React 
 
@@ -478,6 +478,8 @@ Reviision de los temas de la semana
 </br>
 </br>
 
+Hacemos ej Custom Hooks
+
 ## Clase 22 
 </br>
 </br>
@@ -490,3 +492,14 @@ Reviision de los temas de la semana
 </br>
 </br>
 
+## Clase 25 
+</br>
+</br>
+
+## Clase 26 
+</br>
+</br>
+
+## Clase 27 --Integradora -FIN
+</br>
+</br>
