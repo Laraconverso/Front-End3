@@ -1,4 +1,5 @@
 ## NOTAS del material [SIN FINALIZAR]
+CURSADA FINALIZADA
 
 # React 
 
@@ -501,5 +502,6 @@ Hacemos ej Custom Hooks
 </br>
 
 ## Clase 27 --Integradora -FIN
+
 </br>
 </br>
